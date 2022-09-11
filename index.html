@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Order of EL</title>
+	<link rel="stylesheet" href="main.css"/>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+  	<link rel="icon" href="./ooel_v2_512px.png">
+</head>
+<body>
+	<div class="app">
+		<div class="menu-toggle">
+			<div class="something">
+				<span></span>
+			</div>
+		</div>
+
+		<aside class="sidebar">
+			<h3>OoEL</h3>
+			
+			<nav class="menu">
+				<a href="#" class="menu-item active">Home</a>
+				<a href="#" class="menu-item">About</a>
+				<a href="#" class="menu-item">Projects</a>
+				<a href="#" class="menu-item">Contact</a>
+			</nav>
+
+		</aside>
+
+		<main class="content">
+			<h1>Hello</h1>
+			<h4>0x48656C6C6F</h4>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</main>
+	</div>
+
+	<script>
+		const menu_toggle = document.querySelector('.menu-toggle');
+		const sidebar = document.querySelector('.sidebar');
+
+		menu_toggle.addEventListener('click', () => {
+			menu_toggle.classList.toggle('active');
+			sidebar.classList.toggle('active');
+		});
+	</script>
+</body>
+</html>
