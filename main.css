@@ -95,7 +95,6 @@ body {
 .sidebar .menu .menu-item:hover,
 .sidebar .menu .menu-item.active {
 	color: #0ee;
-<<<<<<< HEAD
 	border-right: 7px solid #0ee;
 	border-left: 7px solid #0ee;
 }
@@ -103,13 +102,11 @@ body {
 .sidebar .menu .menu-item:hover {
 	border-right: 7px solid #0ee;
 	border-left: 7px solid #0ee;
-=======
 	border-right: 5px solid #0ee;
 }
 
 .sidebar .menu .menu-item:hover {
 	border-right: 5px solid #0ee;
->>>>>>> origin/main
 }
 
 .content {
